@@ -1,0 +1,686 @@
+﻿******************************************
+    Version: 1.0.0.0
+      Autor: Daniel Romero
+      Fecha: 25 de Mayo de 2016
+Descripcion:			
+			Creacion de Versioning
+
+
+******************************************
+		     Version: 1.0.0.1
+		       Autor: Daniel Romero
+			   Fecha: 26 de Mayo de 2016
+  		 Descripcion:
+			
+Actualización Estilo :	D:\ZAW\SoftBottin\SoftBottin\SoftBottin\SoftBottin\Content\Boostrap\main.css	Edit
+
+Actualización Script :	D:\ZAW\SoftBottin\SoftBottin\SoftBottin\SoftBottin\Scripts\Security\Principal.js	Edit
+
+Actualización Vista  :  D:\ZAW\SoftBottin\SoftBottin\SoftBottin\SoftBottin\Views\Security\Principal.cshtml	Edit
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.2
+		       Autor: Daniel Romero
+			   Fecha: 28 de Mayo de 2016
+  		 Descripcion:
+			
+Actualización Estilo	:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Content\Boostrap\main.css	Edit
+
+Actualización DataBase :	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.dbml	Edit
+							D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.designer.cs	Edit
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.3
+		       Autor: Daniel Romero
+			   Fecha: 29 de Mayo de 2016
+  		 Descripcion:
+			
+Actualización Estilo		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Content\Boostrap\main.css	Edit
+
+Actualización DataBase		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.dbml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.designer.cs	Edit
+
+Actualización Controlador	:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\SecurityController.cs	Edit
+
+Actualización Modelo		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\cmSecurity.cs	Edit
+
+Actualización clase			:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinWS\cUtilities.cs	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinWS\SoftBottin.asmx.cs	Edit
+
+Actualización Script		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Scripts\Security\Principal.js	Edit
+
+Actualización vista			:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Security\Principal.cshtml	Edit
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.4
+		       Autor: Daniel Romero
+			   Fecha: 30 de Mayo de 2016
+  		 Descripcion:
+			
+Actualización Estilo		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Content\Boostrap\main.css	Edit
+
+Actualización DataBase		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.dbml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.designer.cs	Edit
+
+Actualización Controlador	:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\SecurityController.cs	Edit
+
+Actualización Modelo		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\cmSecurity.cs	Edit
+
+Actualización clase			:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinWS\cUtilities.cs	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinWS\SoftBottin.asmx.cs	Edit
+
+Actualización Script		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Scripts\Security\Principal.js	Edit
+
+Actualización vista			:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Security\Principal.cshtml	Edit
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.5
+		       Autor: Daniel Romero
+			   Fecha: 5 de Junio de 2016
+  		 Descripcion:
+			
+Actualización Estilo		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Content\Boostrap\main.css	Edit
+
+Actualización DataBase		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.dbml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.dbml.layout	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.designer.cs	Edit
+
+
+Actualización Controlador	:	DD:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\ShoesController.cs	Add
+
+Actualización Modelo		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\cmSecurity.cs	Edit
+
+Actualización clase			:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\Shoes\cShoeType.cs	Add
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Web References\wsSoftBottin\Reference.cs	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Web References\wsSoftBottin\SoftBottin.wsdl	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinWS\SoftBottin.asmx.cs	Edit
+
+
+Actualización vista			:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Security\Principal.cshtml	Edit
+							    D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml	Add4
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\CrearTipoZapato.cshtml	Add
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\EditarTipoZapato.cshtml	Add
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\TiposZapatos.cshtml	Add
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\Zapatos.cshtml	Add
+
+Actualización csproject		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\SoftBottin.csproj	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\SoftBottin.csproj.user	Edit
+
+Actualización Web.config	:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Web.config	Edit
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.6
+		       Autor: Daniel Romero
+			   Fecha: 8 de Junio de 2016
+  		 Descripcion:
+			
+Actualización Controlador	:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\ShoesController.cs	Edit
+
+
+Actualización vista			:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\EditarTipoZapato.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\Zapatos.cshtml	Edit
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.7
+		       Autor: Daniel Romero
+			   Fecha: 8 de Junio de 2016
+  		 Descripcion:
+			
+Actualización Controlador	:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\ShoesController.cs	Edit
+
+
+Actualización vista			:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Security\Principal.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\CrearTipoZapato.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\CrearZapato.cshtml	Add
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\TiposZapatos.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\Zapatos.cshtml	Edit
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.8
+		       Autor: Daniel Romero
+			   Fecha: 12 de Junio de 2016
+  		 Descripcion:
+			
+Actualización Controlador	:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\ShoesController.cs	Edit
+
+Nuevos Modelos				:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\Shoes\cColor.cs	Add
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\Shoes\cShoe.cs	Add
+
+Actualización Modelo		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\Shoes\cShoeType.cs	Edit
+
+
+Actualización vista			:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Security\Principal.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\CrearZapato.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\TiposZapatos.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\Zapatos.cshtml	Edit
+
+Nueva Vista					:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\Colores.cshtml	Add
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\CrearColor.cshtml	Add
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\EditarColor.cshtml	Add
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.9
+		       Autor: Daniel Romero
+			   Fecha: 12 de Junio de 2016
+  		 Descripcion:			
+
+Nuevos Modelos				:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\Shoes\cColor.cs	Add
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\Shoes\cShoe.cs	Add
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\Shoes\cShoeType.cs	Edit
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.10
+		       Autor: Daniel Romero
+			   Fecha: 18 de Junio de 2016
+  		 Descripcion:			
+
+Actualización Controlador	:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\ShoesController.cs	Edit
+
+Actualización Modelo		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\Shoes\cShoe.cs	Edit
+
+
+Actualización Vistas		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\CrearZapato.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\Imagenes.cshtml	Add
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\Zapatos.cshtml	Edit
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.11
+		       Autor: Daniel Romero
+			   Fecha: 26 de Junio de 2016
+  		 Descripcion:			
+
+
+Actualización Vista			:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Content\Boostrap\main.css	Edit
+
+
+Actualización Controlador	:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\PurchasingController.cs	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\SecurityController.cs	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\ShoesController.cs	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\UtilitiesController.cs	Add
+
+
+Actualización Modelo		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\Shoes\cShoe.cs	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Models\cmSecurity.cs	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinWS\SoftBottin.asmx.cs	Edit
+
+
+
+Actualización Script		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Scripts\Security\Principal.js	Edit, Rename
+
+
+
+Actualización Vistas		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Security\Principal.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shoes\Zapatos.cshtml	Edit
+
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.12
+		       Autor: Daniel Romero
+			   Fecha: 27 de Junio de 2016
+  		 Descripcion:			
+
+
+Actualización Vista			:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Content\Boostrap\main.css	Edit
+
+
+Actualización Controlador	:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Controllers\SecurityController.cs	Edit
+
+
+
+Actualización Base de Datos	:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.dbml	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.dbml.layout	Edit
+								D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottinBD\SoftBottinDataClasses.designer.cs	Edit
+
+
+
+
+Actualización Script		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Scripts\Security\Principal.js	Edit, Rename
+
+
+
+Actualización Vistas		:	D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml	Edit
+
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.13
+		       Autor: Daniel Romero
+			   Fecha: 27 de Junio de 2016
+  		 Descripcion:			
+
+
+Upgrade
+
+
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.14
+		       Autor: Daniel Romero
+			   Fecha: 28 de Junio de 2016
+  		 Descripcion:			
+
+
+Actualización Vista			:	D:\ZAW\SoftBottin\SoftBottin\SoftBottin\SoftBottin\Views\Security\Principal.cshtml	Edit
+								D:\ZAW\SoftBottin\SoftBottin\SoftBottin\SoftBottin\Views\Shoes\CrearZapato.cshtml	Edit
+
+
+
+
+Actualización Controlador	:	D:\ZAW\SoftBottin\SoftBottin\SoftBottin\SoftBottin\Controllers\ShoesController.cs	Edit
+
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.15
+		       Autor: Daniel Romero
+			   Fecha: 29 de Junio de 2016
+  		 Descripcion:			
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\Principal.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+
+Actualización Script		:	SoftBottin\SoftBottin\Scripts\Security\Principal.js
+
+
+
+
+Actualización Controlador	:	SoftBottin\SoftBottin\Controllers\ShoesController.cs
+
+
+
+Actualización Estilo		:	SoftBottin\SoftBottin\Content\Boostrap\main.css
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.16
+		       Autor: Daniel Romero
+			   Fecha: 7 de Julio de 2016
+  		 Descripcion:			
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\Principal.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+								SoftBottin\SoftBottin\Views\Shoes\Zapatos.cshtml
+
+Actualización Script		:	SoftBottin\SoftBottin\Scripts\Security\Principal.js
+
+
+
+Actualización clase			:	SoftBottin\SoftBottinBD\SoftBottinDataClasses.dbml
+								SoftBottin\SoftBottinBD\SoftBottinDataClasses.dbml.layout
+								SoftBottin\SoftBottinBD\SoftBottinDataClasses.designer.cs
+								SoftBottin\SoftBottinBD\app.config
+								SoftBottin\SoftBottinWS\SoftBottin.asmx.cs
+
+
+
+Actualización Controlador	:	SoftBottin\SoftBottin\Controllers\SecurityController.cs
+							    SoftBottin\SoftBottin\Controllers\ShoesController.cs
+
+
+Actualización Modelo		:	SoftBottin\SoftBottin\Models\Shoes\cShoe.cs
+
+
+
+Actualización Estilo		:	SoftBottin\SoftBottin\Content\Boostrap\main.css
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.17
+		       Autor: Daniel Romero
+			   Fecha: 11 de Julio de 2016
+  		 Descripcion:			
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\Principal.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+
+
+Actualización Script		:	SoftBottin\SoftBottin\Scripts\Security\Principal.js
+
+Adición de Script			:	SoftBottin\SoftBottin\Scripts\Angular\app.js
+								SoftBottin\SoftBottin\Scripts\Angular\controllers.js
+
+
+
+
+Actualización Estilo		:	SoftBottin\SoftBottin\Content\Boostrap\main.css
+
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.18
+		       Autor: Daniel Romero
+			   Fecha: 13 de Julio de 2016
+  		 Descripcion:			
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\Principal.cshtml
+								SoftBottin\SoftBottin\Views\Security\ProductDetail.cshtml
+								SoftBottin\SoftBottin\Views\Security\SubPrincipal.cshtml
+
+
+
+
+Actualización Script		:	SoftBottin\SoftBottin\Scripts\Security\Principal.js
+
+Adición de Script			:	SoftBottin\SoftBottin\Scripts\Angular\app.js
+								SoftBottin\SoftBottin\Scripts\Angular\controllers.js
+
+
+Actualización Controlador	:	SoftBottin\SoftBottin\Controllers\SecurityController.cs
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.19
+		       Autor: Daniel Romero
+			   Fecha: 17 de Julio de 2016
+  		 Descripcion:			
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\Principal.cshtml
+								SoftBottin\SoftBottin\Views\Security\ProductDetail.cshtml
+								SoftBottin\SoftBottin\Views\Security\SubPrincipal.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+
+
+Actualización de Script			:	SoftBottin\SoftBottin\Scripts\Angular\app.js
+								SoftBottin\SoftBottin\Scripts\Angular\controllers.js
+								SoftBottin\SoftBottin\Scripts\Security\Principal.js
+								SoftBottin\SoftBottin\Scripts\Security\ProductDetail.js
+
+
+
+
+Actualización Controlador	:	SoftBottin\SoftBottin\Controllers\SecurityController.cs
+
+Actualización Estilo		:	SoftBottin\SoftBottin\Content\Boostrap\main.css
+
+Actualización Modelo		:	SoftBottin\SoftBottin\Models\Shoes\cShoe.cs
+								SoftBottin\SoftBottin\Models\cmProductDetail.cs
+
+Adición archivos			:	SoftBottin\SoftBottin\Scripts\Angular\LocalStorage\angular-local-storage.min.js
+								SoftBottin\SoftBottin\Scripts\Zoom\bootstrap-image-gallery.min.css
+								SoftBottin\SoftBottin\Scripts\Zoom\bootstrap-image-gallery.min.js
+								SoftBottin\SoftBottin\Views\Security\ViewShoppingCart.cshtml
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.20
+		       Autor: Daniel Romero
+			   Fecha: 18 de Julio de 2016
+  		 Descripcion:			
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\ProductDetail.cshtml
+								SoftBottin\SoftBottin\Views\Security\ViewShoppingCart.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+								SoftBottin\SoftBottin\Views\Security\CheckOut.cshtml
+
+
+Actualización de Script			:	SoftBottin\SoftBottin\Scripts\Angular\app.js
+
+
+
+Actualización Controlador	:	SoftBottin\SoftBottin\Controllers\SecurityController.cs
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.21
+		       Autor: Daniel Romero
+			   Fecha: 19 de Julio de 2016
+  		 Descripcion:			
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\Principal.cshtml
+								SoftBottin\SoftBottin\Views\Security\ProductDetail.cshtml
+								SoftBottin\SoftBottin\Views\Security\SubPrincipal.cshtml
+								SoftBottin\SoftBottin\Views\Security\ViewShoppingCart.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.22
+		       Autor: Daniel Romero
+			   Fecha: 20 de Julio de 2016
+  		 Descripcion:			
+
+
+Actualización Estilo		:	SoftBottin\SoftBottin\Content\Boostrap\main.css
+
+
+Actualización Script		:	SoftBottin\SoftBottin\Scripts\Angular\app.js
+								SoftBottin\SoftBottin\Scripts\Security\ProductDetail.js
+								SoftBottin\SoftBottin\Scripts\Angular\Messages\messages.js
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\CheckOut.cshtml
+								SoftBottin\SoftBottin\Views\Security\Principal.cshtml
+								SoftBottin\SoftBottin\Views\Security\ProductDetail.cshtml
+								SoftBottin\SoftBottin\Views\Security\ViewShoppingCart.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+
+******************************************************************************************************************************
+		     Version: 1.0.0.23
+		       Autor: Daniel Romero
+			   Fecha: 24 de Julio de 2016
+  		 Descripcion:			
+
+
+Actualización Estilo		:	SoftBottin\SoftBottin\Content\Boostrap\main.css
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\ProductDetail.cshtml
+								SoftBottin\SoftBottin\Views\Security\ViewShoppingCart.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.24
+		       Autor: Daniel Romero
+			   Fecha: 31 de Julio de 2016
+  		 Descripcion:			
+
+
+Actualización Estilo		:	SoftBottin\SoftBottin\Content\Boostrap\main.css
+
+Actualización Script		:	SoftBottin\SoftBottin\Scripts\Angular\app.js
+								SoftBottin\SoftBottin\Scripts\Security\Principal.js
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\CheckOut.cshtml
+								SoftBottin\SoftBottin\Views\Security\Principal.cshtml
+								SoftBottin\SoftBottin\Views\Security\ProductDetail.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+
+Nuevos archivos				:	SoftBottin\SoftBottin\Content\Images\HTTPS_icon.png
+								SoftBottin\SoftBottin\Content\Images\payu@2x.png
+								SoftBottin\SoftBottin\Scripts\Security\ChechkOut.js
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.25
+		       Autor: Daniel Romero
+			   Fecha: 31 de Julio de 2016
+  		 Descripcion:			
+
+
+Actualización Estilo		:	SoftBottin\SoftBottin\Content\Boostrap\main.css
+
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\ProductDetail.cshtml
+								SoftBottin\SoftBottin\Views\Security\ViewShoppingCart.cshtml
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.26
+		       Autor: Daniel Romero
+			   Fecha: 8 de Agosto de 2016
+  		 Descripcion:			
+
+
+Actualización Estilo		:	SoftBottin\SoftBottin\Content\Boostrap\main.css
+
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\CheckOut.cshtml
+								SoftBottin\SoftBottin\Views\Security\Principal.cshtml
+								SoftBottin\SoftBottin\Views\Security\ProductDetail.cshtml
+								SoftBottin\SoftBottin\Views\Security\SubPrincipal.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+
+
+
+Nuevos archivos				:	SoftBottin\SoftBottin\Content\Boostrap\bootstrap-material-design.min.css
+								SoftBottin\SoftBottin\Content\Boostrap\ripples.min.css
+								SoftBottin\SoftBottin\Scripts\Material\material.min.js
+								SoftBottin\SoftBottin\Scripts\Material\ripples.min.js
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.27
+		       Autor: Daniel Romero
+			   Fecha: 15 de Agosto de 2016
+  		 Descripcion:			
+
+
+Actualización Controlador	:	SoftBottin\SoftBottin\Controllers\SecurityController.cs
+
+
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\CheckOut.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+
+
+
+
+Nuevos archivos				:	SoftBottin\SoftBottin\Scripts\Encryption\md5.js
+								SoftBottin\SoftBottin\Scripts\Encryption\md5.min.js
+								SoftBottin\SoftBottin\Scripts\Encryption\md5.min.js.map
+								SoftBottin\SoftBottin\Views\Security\Confirmation.cshtml
+								SoftBottin\SoftBottin\Views\Security\Response.cshtml
+
+
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.28
+		       Autor: Daniel Romero
+			   Fecha: 11 de Enero de 2017
+  		 Descripcion:			
+
+
+Actualización Controlador	:	SoftBottin\SoftBottin\Controllers\ShoesController.cs
+
+
+
+
+Actualización Vista			:	SoftBottin\SoftBottin\Views\Security\Principal.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+
+
+Nuevos archivos				:	SoftBottin\SoftBottin\Content\Icomoon\Icon\icon.png
+								SoftBottin\SoftBottin\Content\Loading\pace-theme-barber-shop.css
+								SoftBottin\SoftBottin\Scripts\Loading\pace.min.js
+
+
+
+
+
+******************************************************************************************************************************
+		     Version: 1.0.0.29
+		       Autor: Daniel Romero
+			   Fecha: 29 de Enero de 2017
+  		 Descripcion:			
+
+
+Actualización Controlador	:	SoftBottin\SoftBottin\Controllers\ShoesController.cs
+
+
+
+
+Actualización Estilos		:	SoftBottin\SoftBottin\Content\Boostrap\bootstrap-material-design.min.css
+								SoftBottin\SoftBottin\Content\Loading\pace-theme-barber-shop.css
+
+Actualización Vistas		:	SoftBottin\SoftBottin\Views\Security\ProductDetail.cshtml
+								SoftBottin\SoftBottin\Views\Security\SubPrincipal.cshtml
+								SoftBottin\SoftBottin\Views\Shared\_Layout.cshtml
+
+
+Nuevos archivos				:	SoftBottin\SoftBottin\Content\Fonts\FontAwesome.otf
+								SoftBottin\SoftBottin\Content\Fonts\fontawesome-webfont.eot
+								SoftBottin\SoftBottin\Content\Fonts\fontawesome-webfont.svg
+								SoftBottin\SoftBottin\Content\Fonts\fontawesome-webfont.ttf
+								SoftBottin\SoftBottin\Content\Fonts\fontawesome-webfont.woff
+								SoftBottin\SoftBottin\Content\Fonts\fontawesome-webfont.woff2
+								SoftBottin\SoftBottin\Content\Shared\font-awesome.css
+								SoftBottin\SoftBottin\Content\Shared\font-awesome.min.css
+								SoftBottin\SoftBottin\Scripts\Zoom\easyzoom.js
+
+
+Archivos eliminados			:	SoftBottin\SoftBottin\Scripts\Zoom\bootstrap-image-gallery.min.css
+								SoftBottin\SoftBottin\Scripts\Zoom\bootstrap-image-gallery.min.js
+								SoftBottin\SoftBottin\Scripts\Zoom\jquery.elevateZoom-3.0.8.min.js
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
