@@ -1,5 +1,0 @@
-D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\SoftBottinBD\bin\Debug\SoftBottinBD.dll.config
-D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\SoftBottinBD\bin\Debug\SoftBottinBD.dll
-D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\SoftBottinBD\bin\Debug\SoftBottinBD.pdb
-D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\SoftBottinBD\obj\Debug\SoftBottinBD.dll
-D:\ZAW\Zapatos\GitHub\SoftBottin\SoftBottin\SoftBottinBD\obj\Debug\SoftBottinBD.pdb
