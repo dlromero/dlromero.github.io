@@ -296,8 +296,8 @@ AppModule = __decorate([
                 { path: 'products', component: __WEBPACK_IMPORTED_MODULE_7__products_product_list_component__["a" /* ProductListComponent */] },
                 { path: 'products/:id', component: __WEBPACK_IMPORTED_MODULE_8__products_product_detail_component__["a" /* ProductDetailComponent */] },
                 { path: 'welcome', component: __WEBPACK_IMPORTED_MODULE_6__home_welcome_component__["a" /* WelcomeComponent */] },
-                { path: '', redirectTo: 'welcome', pathMatch: 'full' },
-                { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
+                { path: '', redirectTo: '/welcome', pathMatch: 'full' },
+                { path: '**', redirectTo: '/welcome', pathMatch: 'full' }
             ])
         ],
         providers: [],
