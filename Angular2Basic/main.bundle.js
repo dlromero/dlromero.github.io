@@ -298,7 +298,7 @@ AppModule = __decorate([
                 { path: 'welcome', component: __WEBPACK_IMPORTED_MODULE_6__home_welcome_component__["a" /* WelcomeComponent */] },
                 { path: '', redirectTo: '/welcome', pathMatch: 'full' },
                 { path: '**', redirectTo: '/welcome', pathMatch: 'full' }
-            ])
+            ], { useHash: true })
         ],
         providers: [],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
