@@ -1,20 +1,57 @@
-
-const CACHE_NAME = "achievements-v1";
-const CACHE_URLS = [
-    "../styles/indigo-pink.css"
+var CACHE_NAME = 'achievements-v1';
+var urlsToCache = [
+    '/assets/styles/indigo-pink.css'
 ];
 
-self.addEventListener('install', function (ev) {
-    caches.open(CACHE_NAME)
-        .then(function (cache) {
-            console.log("Cache abierto");
-            return cache.addAll(CACHE_URLS);
-        })
-        .catch(err => console.log(err));
-
+self.addEventListener('install', function (event) {
+    // Perform install steps
+    event.waitUntil(
+        caches.open(CACHE_NAME)
+            .then(function (cache) {
+                console.log('Opened cache');
+                return cache.addAll(urlsToCache);
+            })
+    );
 });
 
-self.addEventListener('activate', function () { });
+
+self.addEventListener('fetch', function (event) {
+    console.log(event);
+    event.respondWith(
+        caches.match(event.request)
+            .then(function (response) {
+                // Cache hit - return response
+                if (response) {
+                    return response;
+                }
+                return fetch(event.request);
+            }
+            )
+    );
+});
+
+
+
+
+// const CACHE_NAME = "achievements-v1";
+// const CACHE_URLS = [
+//     "../assets/styles/indigo-pink.css"
+// ];
+
+// self.addEventListener('install', function (ev) {
+//     caches.open(CACHE_NAME)
+//         .then(function (cache) {
+//             console.log("Cache abierto");
+//             return cache.addAll(CACHE_URLS);
+//         })
+//         .catch(err => console.log(err));
+
+// });
+
+// self.addEventListener('activate', function (ev) {
+//     console.log(ev);
+
+// });
 
 // self.addEventListener('fetch', function (ev) {
 //     ev.respondWith(
@@ -36,17 +73,3 @@ self.addEventListener('activate', function () { });
 
 //     )
 // });
-
-self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    caches.match(event.request)
-      .then(function(response) {
-        // Cache hit - return response
-        if (response) {
-          return response;
-        }
-        return fetch(event.request);
-      }
-    )
-  );
-});
