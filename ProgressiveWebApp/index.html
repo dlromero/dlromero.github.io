@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Aplicación Web Progresiva</title>
+  <base href="/ProgressiveWebApp/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="/assets/styles/indigo-pink.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"/></head>
+
+<body>
+  <app-root></app-root>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/assets/service-Worker/sw.js')
+        .then((reg) => console.log("Se registró la service worker"))
+        .catch(err => console.log(err));
+    }
+  </script>
+<script type="text/javascript" src="inline.142359ed418e1a701ce7.bundle.js"></script><script type="text/javascript" src="polyfills.07685bca73161be59257.bundle.js"></script><script type="text/javascript" src="vendor.acc83b11c2b86342f48e.bundle.js"></script><script type="text/javascript" src="main.cbe689750712badb2f6d.bundle.js"></script></body>
+
+</html>
