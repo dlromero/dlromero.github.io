@@ -1,6 +1,6 @@
 var CACHE_NAME = 'achievements-v1';
 var urlsToCache = [
-    '../styles/indigo-pink.css'
+    '/assets/styles/indigo-pink.css'
 ];
 
 self.addEventListener('install', function (event) {
