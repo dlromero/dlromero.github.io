@@ -1,0 +1,28 @@
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+#map 
+{
+    height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+     height: 100%;
+     margin: 0;
+      padding: 0;
+ }
+
+
+
+.dark-primary-color    { background-color: #FFA000; }
+.default-primary-color { background-color: #FFC107; }
+.light-primary-color   { background-color: #FFECB3; }
+.text-primary-color    { color: #212121; }
+.accent-color          { background: #795548; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+      
