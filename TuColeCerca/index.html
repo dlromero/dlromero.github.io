@@ -4,9 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="./js/jquery.csv.js"></script>
-    <script type="text/javascript" src="./js/jquery.csv.min.js"></script>
-    <script type="text/javascript" src="./js/papaparse/papaparse.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -19,10 +16,8 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-
-    <script type="text/javascript" src="./js/csvjson.js"></script>
     <script type="text/javascript" src="./js/index.js"></script>
-    <link rel="stylesheet" href="./css/index.css?v=1.0.0.1">
+    <link rel="stylesheet" href="./css/index.css?v=1.0.0.2">
 </head>
 
 <body>
@@ -41,181 +36,182 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-            <div class="panel panel-warning">
-                <div class="panel-heading" data-toggle="collapse" data-target="#filters">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&#8208;</span></button>
-                    <h3 class="panel-title">Filtros</h3>                    
-                </div>
-                <div class="panel-body collapse in" id="filters">
-                    <div class="form-group">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <label for="address">Dirección</label>
-                            <input type="text" class="form-control" id="address" placeholder="Dirección">
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <label for="gestionType">Tipo de Gestión</label>
-                            <select class="form-control">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                <div class="panel panel-warning">
+                    <div class="panel-heading" data-toggle="collapse" data-target="#filters">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&#8208;</span></button>
+                        <h3 class="panel-title">Filtros</h3>
+                    </div>
+                    <div class="panel-body collapse in" id="filters">
+                        <div class="form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <label for="address">Dirección</label>
+                                <input type="text" class="form-control" id="address" placeholder="Dirección">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <label for="gestionType">Tipo de Gestión</label>
+                                <select class="form-control">
                             <option>Todos</option>
                             <option>Publico</option>
                             <option>Privado</option>
                         </select>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <label for="gestionType">Jornada</label>
-                            <select class="form-control">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <label for="gestionType">Jornada</label>
+                                <select class="form-control">
                                 <option>Todas</option>
                                 <option>Mañana</option>
                                 <option>Tarde</option>
                                 <option>Unica</option>
                             </select>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="padding: 1em">                            
-                            <button onclick="geocodeAddress();" type="button" class="btn btn-lg btn-block btn-primary">                            
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="padding: 1em">
+                                <button onclick="geocodeAddress();" type="button" class="btn btn-lg btn-block btn-primary">                            
                             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                             Buscar</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="panel panel-warning">
-                <div class="panel-heading">
-                    <h4 class="panel-title">Resultados</h4>
-                </div>
-                <div class="panel-body">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Resultados</h4>
+                    </div>
+                    <div class="panel-body">
 
-                    <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#home">Información</a></li>
-                        <li><a data-toggle="tab" href="#menu1" on-tap="RefreshMap()" onresize="RefreshMap()" onclick="RefreshMap()">Mapa</a></li>
-                    </ul>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#home">Información</a></li>
+                            <li><a data-toggle="tab" href="#menu1" on-tap="RefreshMap()" onresize="RefreshMap()" onclick="RefreshMap()">Mapa</a></li>
+                        </ul>
 
-                    <div class="tab-content">
-                        <div id="home" class="tab-pane fade in active">
-                            <div class="row" style="margin-top: 1em !important;">
-                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                    <div class="thumbnail">
-                                        <div class="caption">
-                                            <h3><strong>Colegio General Pinilla</strong></h3>
-                                            <blockquote>
-                                                <label>Dirección</label>
-                                                <p>calle 27 #15-65 sur</p>
-                                                <label>Tipo de gestión</label>
-                                                <p>Privado</p>
-                                                <label>Distancia</label>
-                                                <p>5 cuadras</p>
-                                                <label>Jornada</label>
-                                                <p>Mañana y tarde</p>
-                                            </blockquote>
-                                            <p><a href="#" class="btn btn-info" role="button">
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <div class="row" style="margin-top: 1em !important;">
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                        <div class="thumbnail">
+                                            <div class="caption">
+                                                <h3><strong>Colegio General Pinilla</strong></h3>
+                                                <blockquote>
+                                                    <label>Dirección</label>
+                                                    <p>calle 27 #15-65 sur</p>
+                                                    <label>Tipo de gestión</label>
+                                                    <p>Privado</p>
+                                                    <label>Distancia</label>
+                                                    <p>5 cuadras</p>
+                                                    <label>Jornada</label>
+                                                    <p>Mañana y tarde</p>
+                                                </blockquote>
+                                                <p><a href="#" class="btn btn-info" role="button">
                                                 <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>                                                
                                                 Información</a>
-                                                <a href="#" class="btn btn-warning" role="button">
+                                                    <a href="#" class="btn btn-warning" role="button">
                                                     <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>                                                                                                    
                                                     Mapa</a>
-                                                <a href="#" class="btn btn-primary" role="button">
+                                                    <a href="#" class="btn btn-primary" role="button">
                                                     <span class="glyphicon glyphicon-star" aria-hidden="true">
                                                     </span>
                                                 </a>
-                                            </p>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                    <div class="thumbnail">
-                                        <div class="caption">
-                                            <h3><strong>Colegio Liceo moderno</strong></h3>
-                                            <blockquote>
-                                                <label>Dirección</label>
-                                                <p>calle 34 #15-65 sur</p>
-                                                <label>Tipo de gestión</label>
-                                                <p>Convenio</p>
-                                                <label>Distancia</label>
-                                                <p>8 cuadras</p>
-                                                <label>Jornada</label>
-                                                <p>Unica (7 A.M. - 5 P.M.)</p>
-                                            </blockquote>
-                                            <p><a href="#" class="btn btn-info" role="button">
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                        <div class="thumbnail">
+                                            <div class="caption">
+                                                <h3><strong>Colegio Liceo moderno</strong></h3>
+                                                <blockquote>
+                                                    <label>Dirección</label>
+                                                    <p>calle 34 #15-65 sur</p>
+                                                    <label>Tipo de gestión</label>
+                                                    <p>Convenio</p>
+                                                    <label>Distancia</label>
+                                                    <p>8 cuadras</p>
+                                                    <label>Jornada</label>
+                                                    <p>Unica (7 A.M. - 5 P.M.)</p>
+                                                </blockquote>
+                                                <p><a href="#" class="btn btn-info" role="button">
                                                 <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>                                                
                                                 Información</a>
-                                                <a href="#" class="btn btn-warning" role="button">
+                                                    <a href="#" class="btn btn-warning" role="button">
                                                     <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>                                                                                                    
                                                     Mapa</a>
-                                                <a href="#" class="btn btn-primary" role="button">
+                                                    <a href="#" class="btn btn-primary" role="button">
                                                     <span class="glyphicon glyphicon-star" aria-hidden="true">
                                                     </span>
                                                 </a>
-                                            </p>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                    <div class="thumbnail">
-                                        <div class="caption">
-                                            <h3><strong>Colegio 21 angeles</strong></h3>
-                                            <blockquote>
-                                                <label>Dirección</label>
-                                                <p>calle 34 #15-65 sur</p>
-                                                <label>Tipo de gestión</label>
-                                                <p>Convenio</p>
-                                                <label>Distancia</label>
-                                                <p>20 cuadras</p>
-                                                <label>Jornada</label>
-                                                <p>Unica (7 A.M. - 5 P.M.)</p>
-                                            </blockquote>
-                                            <p><a href="#" class="btn btn-info" role="button">
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                        <div class="thumbnail">
+                                            <div class="caption">
+                                                <h3><strong>Colegio 21 angeles</strong></h3>
+                                                <blockquote>
+                                                    <label>Dirección</label>
+                                                    <p>calle 34 #15-65 sur</p>
+                                                    <label>Tipo de gestión</label>
+                                                    <p>Convenio</p>
+                                                    <label>Distancia</label>
+                                                    <p>20 cuadras</p>
+                                                    <label>Jornada</label>
+                                                    <p>Unica (7 A.M. - 5 P.M.)</p>
+                                                </blockquote>
+                                                <p><a href="#" class="btn btn-info" role="button">
                                                 <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>                                                
                                                 Información</a>
-                                                <a href="#" class="btn btn-warning" role="button">
+                                                    <a href="#" class="btn btn-warning" role="button">
                                                     <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>                                                                                                    
                                                     Mapa</a>
-                                                <a href="#" class="btn btn-primary" role="button">
+                                                    <a href="#" class="btn btn-primary" role="button">
                                                     <span class="glyphicon glyphicon-star" aria-hidden="true">
                                                     </span>
                                                 </a>
-                                            </p>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                    <div class="thumbnail">
-                                        <div class="caption">
-                                            <h3>Colegio 21 angeles</h3>
-                                            <blockquote>
-                                                <label>Dirección</label>
-                                                <p>calle 34 #15-65 sur</p>
-                                                <label>Tipo de gestión</label>
-                                                <p>Convenio</p>
-                                                <label>Distancia</label>
-                                                <p>20 cuadras</p>
-                                                <label>Jornada</label>
-                                                <p>Unica (7 A.M. - 5 P.M.)</p>
-                                            </blockquote>
-                                            <p><a href="#" class="btn btn-info" role="button">
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                        <div class="thumbnail">
+                                            <div class="caption">
+                                                <h3>Colegio 21 angeles</h3>
+                                                <blockquote>
+                                                    <label>Dirección</label>
+                                                    <p>calle 34 #15-65 sur</p>
+                                                    <label>Tipo de gestión</label>
+                                                    <p>Convenio</p>
+                                                    <label>Distancia</label>
+                                                    <p>20 cuadras</p>
+                                                    <label>Jornada</label>
+                                                    <p>Unica (7 A.M. - 5 P.M.)</p>
+                                                </blockquote>
+                                                <p><a href="#" class="btn btn-info" role="button">
                                                 <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>                                                
                                                 Información</a>
-                                                <a href="#" class="btn btn-warning" role="button">
+                                                    <a href="#" class="btn btn-warning" role="button">
                                                     <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>                                                                                                    
                                                     Mapa</a>
-                                                <a href="#" class="btn btn-primary" role="button">
+                                                    <a href="#" class="btn btn-primary" role="button">
                                                     <span class="glyphicon glyphicon-star" aria-hidden="true">
                                                     </span>
                                                 </a>
-                                            </p>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="menu1" class="tab-pane fade" style="height: 200px">
-                            <div id="map"></div>
+                            <div id="menu1" class="tab-pane fade" style="height: 200px">
+                                <div id="map"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </body>
 
