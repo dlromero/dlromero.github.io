@@ -104,7 +104,7 @@ function initMap() {
 
 
     var iconFinal = {
-        url: "http://www.clker.com/cliparts/B/B/1/E/y/r/marker-pin-google.svg", // url
+        url: "https://www.clker.com/cliparts/B/B/1/E/y/r/marker-pin-google.svg", // url
         scaledSize: new google.maps.Size(50, 50), // scaled size
         origin: new google.maps.Point(0, 0), // origin
         anchor: new google.maps.Point(0, 0) // anchor
