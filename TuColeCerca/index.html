@@ -45,35 +45,95 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
                 <div class="panel panel-warning">
-                    <div class="panel-heading" data-toggle="collapse" data-target="#filters">
+                    <div class="panel-heading" onclick="ToggleFilters()">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&#8208;</span></button>
                         <h3 class="panel-title">Filtros</h3>
                     </div>
                     <div class="panel-body collapse in" id="filters">
                         <div class="form-group">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <label for="address">Dirección</label>
-                                <input type="text" class="form-control" id="address" placeholder="Dirección">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <label for="address">Zona</label>
+                                <select class="form-control" id="Zone">
+                                    <option value="false">Todos</option>
+                                    <option value="RURAL">Rural</option>
+                                    <option value="URBANA">Urbana</option>
+                                </select>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                <label for="gestionType">Tipo de Gestión</label>
-                                <select class="form-control">
-                            <option>Todos</option>
-                            <option>Publico</option>
-                            <option>Privado</option>
-                        </select>
+                                <label for="address">Nivel</label>
+                                <select class="form-control" id="Level">
+                                    <option  value="false">Todos</option>
+                                    <option value="PRIMERA INFANCIA">Primera Infancia</option>
+                                    <option value="PREESCOLAR">Preescolar</option>
+                                    <option value="BÁSICA PRIMARIA">Básica Primaria</option>
+                                    <option value="BÁSICA SECUNDARIA">Básica Secundaria</option>                                    
+                                    <option value="MEDIA">Media</option>                                    
+                                </select>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <label for="gestionType">Jornada</label>
-                                <select class="form-control">
-                                <option>Todas</option>
-                                <option>Mañana</option>
-                                <option>Tarde</option>
-                                <option>Unica</option>
-                            </select>
+                                <select class="form-control" id="StudyDay">
+                                        <option  value="false">Todas</option>
+                                        <option value="MAÑANA">Mañana</option>
+                                        <option value="TARDE">Tarde</option>
+                                        <option value="NOCTURNA">Nocturna</option>
+                                        <option value="COMPLETA">Completa</option>
+                                        <option value="FIN DE SEMANA">Fin de semana</option>                                                                                
+                                        <option value="ÚNICA">Única</option>
+                                    </select>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <label for="gestionType">Grados</label>
+                                <select class="form-control" id="grade">
+                                        <option  value="false">Todos</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-1">-1</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="11">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="99">99</option>
+                                    </select>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <label for="gestionType">Especialidades</label>
+                                <select class="form-control" id="Specialties">
+                                    <option  value="false">Todas</option>
+                                    <option value="ACADÉMICA">Académica</option>
+                                    <option value="COMERCIAL">Comercial</option>                                    
+                                    <option value="PEDAGOGICO">Pedagogico</option>
+                                    <option value="OTRO">Otro</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <label for="gestionType">Modelos Educativos</label>
+                                <select  class="form-control"  id="EducationalModel">
+                                    <option  value="false">Todos</option>                                
+                                    <option value="EDUCACIÓN TRADICIONAL">Educación Tradicional</option>
+                                    <option value="ACELERACIÓN DEL APRENDIZAJE">Aceleración del Aprendizaje</option>
+                                    <option value="PREESCOLAR ESCOLARIZADO_">Preescolar Escolatizado</option>
+                                    <option value="PROGRAMA PARA JÓVENES EN EXTRAEDAD Y ADULTOS">Programa Para Jóvenes en Extraedad y Adultos</option>
+                                    <option value="ESPERE">ESPERE</option>
+                                    <option value="SER">SER</option>
+                                </select>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="padding: 1em">
-                                <button onclick="geocodeAddress();" type="button" class="btn btn-lg btn-block btn-primary">                            
+                                <button onclick="Search();" type="button" class="btn btn-lg btn-block btn-primary">                            
                             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                             Buscar</button>
                             </div>
@@ -90,122 +150,16 @@
 
                         <ul class="nav nav-tabs">
                             <li class="active"><a data-toggle="tab" href="#home">Información</a></li>
-                            <li><a data-toggle="tab" href="#menu1" on-tap="RefreshMap()" onresize="RefreshMap()" onclick="RefreshMap()">Mapa</a></li>
+                            <li><a data-toggle="tab" href="#menu1" onclick="RefreshMap()">Mapa</a></li>
                         </ul>
 
                         <div class="tab-content">
                             <div id="home" class="tab-pane fade in active">
                                 <div class="row" style="margin-top: 1em !important;">
-                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                        <div class="thumbnail">
-                                            <div class="caption">
-                                                <h3><strong>Colegio General Pinilla</strong></h3>
-                                                <blockquote>
-                                                    <label>Dirección</label>
-                                                    <p>calle 27 #15-65 sur</p>
-                                                    <label>Tipo de gestión</label>
-                                                    <p>Privado</p>
-                                                    <label>Distancia</label>
-                                                    <p>5 cuadras</p>
-                                                    <label>Jornada</label>
-                                                    <p>Mañana y tarde</p>
-                                                </blockquote>
-                                                <p><a href="#" class="btn btn-info" role="button">
-                                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>                                                
-                                                Información</a>
-                                                    <a href="#" class="btn btn-warning" role="button">
-                                                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>                                                                                                    
-                                                    Mapa</a>
-                                                    <a href="#" class="btn btn-primary" role="button">
-                                                    <span class="glyphicon glyphicon-star" aria-hidden="true">
-                                                    </span>
-                                                </a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                        <div class="thumbnail">
-                                            <div class="caption">
-                                                <h3><strong>Colegio Liceo moderno</strong></h3>
-                                                <blockquote>
-                                                    <label>Dirección</label>
-                                                    <p>calle 34 #15-65 sur</p>
-                                                    <label>Tipo de gestión</label>
-                                                    <p>Convenio</p>
-                                                    <label>Distancia</label>
-                                                    <p>8 cuadras</p>
-                                                    <label>Jornada</label>
-                                                    <p>Unica (7 A.M. - 5 P.M.)</p>
-                                                </blockquote>
-                                                <p><a href="#" class="btn btn-info" role="button">
-                                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>                                                
-                                                Información</a>
-                                                    <a href="#" class="btn btn-warning" role="button">
-                                                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>                                                                                                    
-                                                    Mapa</a>
-                                                    <a href="#" class="btn btn-primary" role="button">
-                                                    <span class="glyphicon glyphicon-star" aria-hidden="true">
-                                                    </span>
-                                                </a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                        <div class="thumbnail">
-                                            <div class="caption">
-                                                <h3><strong>Colegio 21 angeles</strong></h3>
-                                                <blockquote>
-                                                    <label>Dirección</label>
-                                                    <p>calle 34 #15-65 sur</p>
-                                                    <label>Tipo de gestión</label>
-                                                    <p>Convenio</p>
-                                                    <label>Distancia</label>
-                                                    <p>20 cuadras</p>
-                                                    <label>Jornada</label>
-                                                    <p>Unica (7 A.M. - 5 P.M.)</p>
-                                                </blockquote>
-                                                <p><a href="#" class="btn btn-info" role="button">
-                                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>                                                
-                                                Información</a>
-                                                    <a href="#" class="btn btn-warning" role="button">
-                                                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>                                                                                                    
-                                                    Mapa</a>
-                                                    <a href="#" class="btn btn-primary" role="button">
-                                                    <span class="glyphicon glyphicon-star" aria-hidden="true">
-                                                    </span>
-                                                </a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                        <div class="thumbnail">
-                                            <div class="caption">
-                                                <h3>Colegio 21 angeles</h3>
-                                                <blockquote>
-                                                    <label>Dirección</label>
-                                                    <p>calle 34 #15-65 sur</p>
-                                                    <label>Tipo de gestión</label>
-                                                    <p>Convenio</p>
-                                                    <label>Distancia</label>
-                                                    <p>20 cuadras</p>
-                                                    <label>Jornada</label>
-                                                    <p>Unica (7 A.M. - 5 P.M.)</p>
-                                                </blockquote>
-                                                <p><a href="#" class="btn btn-info" role="button">
-                                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>                                                
-                                                Información</a>
-                                                    <a href="#" class="btn btn-warning" role="button">
-                                                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>                                                                                                    
-                                                    Mapa</a>
-                                                    <a href="#" class="btn btn-primary" role="button">
-                                                    <span class="glyphicon glyphicon-star" aria-hidden="true">
-                                                    </span>
-                                                </a>
-                                                </p>
-                                            </div>
+                                    <div id="loader"></div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="ResultSearch">
+                                        <div class="text-center">
+                                            <h1>Sin Resultados...</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -218,12 +172,12 @@
                 </div>
             </div>
         </div>
-    </div>
 </body>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https:///ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+
 </script>
 
 <script src="./js/vendor/bootstrap.min.js"></script>
@@ -231,7 +185,11 @@
 <script src="./js/plugins.js"></script>
 <script src="./js/main.js"></script>
 
-<script src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyBTnYJ15mpX6r5PLmqI7_3zgMeY0FSVO7Q&libraries=geometry"
-    async defer></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=visualization&key=AIzaSyBTnYJ15mpX6r5PLmqI7_3zgMeY0FSVO7Q&libraries=geometry"
+    async defer></script> -->
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUUn0iLoYA16qVK-7PTB5FDlAgW1yYX6w&libraries=visualization&callback=initMap">
+
+</script>
 
 </html>
