@@ -9,7 +9,7 @@
 /* Center the loader */
 #loader {
   position: relative;
-  left: 40%;
+  left: 40em;
   top: 50%;
   z-index: 1;
   width: 150px;
@@ -55,6 +55,16 @@
   display: none;
   text-align: center;
 }
+
+/* left: 6em; */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 922px) { 
+    #loader {
+    left: 6em;
+  }
+}
+
 
 
 
