@@ -11,5 +11,20 @@
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #757575; }
 .divider-color         { border-color: #BDBDBD; }
+/* 
+body {
+    background-image: url("../img/Tu_cole_1.jpg");
+    background-color: #cccccc;
+} */
 
+.datajam-img{
+    background-image: url("../img/Tu_cole_1.jpg");
+    background-color: #cccccc;
+    height: 500px;
+}
       
+
+.datajam-theme-principal{
+    background-color: #FFCC80;
+    color: #000000;
+}

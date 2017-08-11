@@ -241,7 +241,7 @@ function Search() {
                 cards = cards + `<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                         <div class="thumbnail">
                                             <div class="caption">
-                                                <h3><strong>${ entry.nombreestablecimiento.length > 40 ? entry.nombreestablecimiento.substring(0, 35) : entry.nombreestablecimiento}</strong></h3>
+                                                <h3><strong>${ entry.nombreestablecimiento.length > 30 ? entry.nombreestablecimiento.substring(0, 25) : entry.nombreestablecimiento}</strong></h3>
                                                 <blockquote>
                                                     <label>Dirección</label>
                                                     <p>${ entry.direccion}</p>

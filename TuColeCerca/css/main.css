@@ -8,7 +8,7 @@
 
 /* Center the loader */
 #loader {
-  position: relative;
+  position: fixed;
   left: 40em;
   top: 50%;
   z-index: 1;
