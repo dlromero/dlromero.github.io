@@ -9,6 +9,11 @@ My portfolio
 2. Angular, Bootstrap V3 -> https://dlromero.github.io/AngularBootstrap
 3. Angular -> https://dlromero.github.io/AngularMaterial
 4. Angular -> https://dlromero.github.io/TourHeroes
-5. Bootstrap V3 ->https://dlromero.github.io/Profile/index.html
-6. Bootstrap V3 -> https://dlromero.github.io/QuestionBs/index.html
-7. Bootstrap V3 -> https://dlromero.github.io/Landing/index.html
+5. Angular PWA -> https://dlromero.github.io/ProgressiveWebApp
+6. Bootstrap V3 ->https://dlromero.github.io/Profile/index.html
+7. Bootstrap V3 -> https://dlromero.github.io/QuestionBs/index.html
+8. Bootstrap V3 -> https://dlromero.github.io/Landing/index.html
+9. Emprendimiento -> https://dlromero.github.io/TorneoYa/
+10. DataJam -> https://dlromero.github.io/TuColeCerca/
+
+
