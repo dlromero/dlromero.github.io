@@ -305,6 +305,12 @@ header .menu .c-3:hover  {
         width: 100%;
     }
 
+
+    .redes-sociales .icono{
+        width: 70px;
+        height: 70px;        
+        line-height: 70px;
+    }
 }
 
 /* Dispositivo md */
