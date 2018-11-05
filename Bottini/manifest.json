@@ -4,8 +4,8 @@
     "theme_color": "#351d15",
     "background_color": "#351d15",
     "display": "standalone",
-    "scope": "/",
-    "start_url": "/",
+    "scope": "/Bottini/",
+    "start_url": "/Bottini/",
     "icons": [{
             "src": "assets/icons/icon-72x72.png",
             "sizes": "72x72",
